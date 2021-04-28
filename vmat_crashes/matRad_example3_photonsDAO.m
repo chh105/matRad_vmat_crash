@@ -62,7 +62,7 @@ pln.propDoseCalc.doseGrid.resolution.z = 5; % [mm]
 %     pln.propOpt.optimizer = 'IPOPT';
 % end
 
-pln.propOpt.optimizer = 'IPOPT';
+pln.propOpt.optimizer = 'fmincon';
 
 %%
 % Enable sequencing and direct aperture optimization (DAO).
